@@ -1,0 +1,322 @@
+[         
+    {
+        "_id": "1a",
+        "name": "CBR Tri-Color",
+        "type": "h sports",
+        "image": "https://www.bikebd.com/price/new-honda-cbr150r/image-player",
+        "category": "CBR",
+        "price": 600
+    },
+    {
+        "_id": "1b",
+        "name": "CBR Victory Red",
+        "type": "h sports",
+        "image": "https://www.bikebd.com/price/new-honda-cbr150r/image-player",
+        "category": "CBR",
+        "price": 600
+    },
+    {
+        "_id": "1c",
+        "name": "CBR Repsol",
+        "type": "h sports",
+        "image": "https://www.bikebd.com/price/new-honda-cbr150r/image-player",
+        "category": "CBR",
+        "price": 700
+    },
+    {
+        "_id": "1d",
+        "name": "CBR Victory-red",
+        "type": "h sports",
+        "image": "https://www.pexels.com/photo/red-tvs-apache-rr-310-17227166/",
+        "category": "CBR",
+        "price": 650
+    },
+    {
+        "_id": "1e",
+        "name": "CBR Red",
+        "type": "h sports",
+        "image": "https://www.pexels.com/photo/red-honda-motorcycle-parked-on-grass-in-india-29521878/",
+        "category": "CBR",
+        "price": 700
+    },
+    {
+        "_id": "1f",
+        "name": "CBR Tri-Color",
+        "type": "h sports",
+        "image": "https://www.pexels.com/photo/honda-cbr-500-on-field-in-evening-19297047/",
+        "category": "CBR",
+        "price": 650
+    },
+    {
+        "_id": "1g",
+        "name": "CBR Red-White",
+        "type": "h sports",
+        "image": "https://www.pexels.com/photo/a-motorcycle-is-parked-in-the-desert-at-night-27920139/",
+        "category": "CBR",
+        "price": 600
+    },
+    {
+        "_id": "1h",
+        "name": "CBR Orange",
+        "type": "h sports",
+        "image": "https://www.pexels.com/photo/orange-honda-cbr-250r-22883234/",
+        "category": "CBR",
+        "price": 500
+    },
+    {
+        "_id": "1i",
+        "name": "CBR White",
+        "type": "h sports",
+        "image": "https://www.pexels.com/photo/close-up-photo-of-a-honda-sports-bike-13448592/",
+        "category": "CBR",
+        "price": 550
+    },
+    {
+        "_id": "1j",
+        "name": "CBR Red",
+        "type": "h sports",
+        "image": "https://www.pexels.com/photo/a-red-motorcycle-is-parked-in-a-parking-garage-27491269/",
+        "category": "CBR",
+        "price": 600
+    },
+    {
+        "_id": "2a",
+        "name": "Yamaha MT15",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/a-black-yamaha-mt-on-the-road-17394013/",
+        "category": "YAMAHA",
+        "price": 600
+    },
+    {
+        "_id": "2b",
+        "name": "Yamaha R15 V2",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/bird-flying-over-motorcycle-15146893/",
+        "category": "YAMAHA",
+        "price": 650
+    },
+    {
+        "_id": "2c",
+        "name": "Yamaha RR",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/sleek-blue-modern-motorcycle-indoors-31042650/",
+        "category": "YAMAHA",
+        "price": 700
+    },
+    {
+        "_id": "2d",
+        "name": "Yamaha R15 V4",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/silver-yamaha-motorcycle-19435687/",
+        "category": "YAMAHA",
+        "price": 750
+    },
+    {
+        "_id": "2e",
+        "name": "Yamaha R1 V2",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/expensive-luxurious-motorcycle-8532393/",
+        "category": "YAMAHA",
+        "price": 750
+    },
+    {
+        "_id": "2f",
+        "name": "Yamaha R1",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/close-up-shot-of-a-sleek-black-sports-motorcycle-33474403/",
+        "category": "YAMAHA",
+        "price": 650
+    },
+    {
+        "_id": "2f",
+        "name": "Yamaha R6",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/close-up-of-yamaha-motorcycle-8532389/",
+        "category": "YAMAHA",
+        "price": 600
+    },
+    {
+        "_id": "2h",
+        "name": "Yamaha RS",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/motorcycle-on-roadside-15846461/",
+        "category": "YAMAHA",
+        "price": 650
+    },
+    {
+        "_id": "2i",
+        "name": "Yamaha R15 V3",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/blue-big-bike-on-the-road-13031473/",
+        "category": "YAMAHA",
+        "price": 700
+    },
+    {
+        "_id": "2j",
+        "name": "Yamaha R15",
+        "type": "y sports",
+        "image": "https://www.pexels.com/photo/vibrant-orange-sports-motorcycle-on-city-rooftop-32351430/",
+        "category": "YAMAHA",
+        "price": 650
+    },
+    {
+        "_id": "3a",
+        "name": "Suzuki GSXR",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/suzuki-gsxr-motorcycle-13278665/",
+        "category": "SUZUKI",
+        "price": 600
+    },
+    {
+        "_id": "3b",
+        "name": "Suzuki Gixxer",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/blue-and-white-suzuki-gsxr-motorcycle-13278519/",
+        "category": "SUZUKI",
+        "price": 550
+    },
+    {
+        "_id": "3c",
+        "name": "Suzuki SF",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/sleek-blue-motorcycle-in-dimly-lit-parking-garage-28904241/",
+        "category": "SUZUKI",
+        "price": 500
+    },
+    {
+        "_id": "3d",
+        "name": "Suzuki GSXR",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/suzuki-gsxr-motorcycle-13278665/",
+        "category": "SUZUKI",
+        "price": 600
+    },
+    {
+        "_id": "3e",
+        "name": "Suzuki GSXR",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/blue-suzuki-superbike-on-a-sunny-day-30207361/",
+        "category": "SUZUKI",
+        "price": 650
+    },
+    {
+        "_id": "3f",
+        "name": "Suzuki Gixxer",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/close-up-shot-of-a-suzuki-motorcycle-7069402/",
+        "category": "SUZUKI",
+        "price": 600
+    },
+    {
+        "_id": "3g",
+        "name": "Suzuki SF",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/close-up-of-a-suzuki-gixxer-sf-250-12317451/",
+        "category": "SUZUKI",
+        "price": 550
+    },
+    {
+        "_id": "3g",
+        "name": "Suzuki Hybusa",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/high-performance-motorcycle-in-bengaluru-street-29575316/",
+        "category": "SUZUKI",
+        "price": 400
+    },
+    {
+        "_id": "3i",
+        "name": "Suzuki GSXR",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/close-up-shot-of-a-suzuki-motorcycle-7069406/",
+        "category": "SUZUKI",
+        "price": 500
+    },
+    {
+        "_id": "3j",
+        "name": "Ducati",
+        "type": "s sports",
+        "image": "https://www.pexels.com/photo/sleek-white-sports-bike-in-urban-setting-30444780/",
+        "category": "SUZUKI",
+        "price": 9.5
+    },
+    {
+        "_id": "4a",
+        "name": "Kawasaki Ninja",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/kawasaki-ninja-zx-10r-parked-on-road-26551186/",
+        "category": "KAWASAKI",
+        "price": 600
+    },
+    {
+        "_id": "4b",
+        "name": "Kawasaki Ninja",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/kawasaki-ninja-motorcycle-26551157/",
+        "category": "KAWASAKI",
+        "price": 820
+    },
+    {
+        "_id": "4c",
+        "name": "Kawasaki 700",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/kawasaki-ninja-parked-on-the-street-11745734/",
+        "category": "KAWASAKI",
+        "price": 850
+    },
+    {
+        "_id": "4d",
+        "name": "Kawasaki H2",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/a-parked-kawasaki-ninja-on-a-race-track-10392249/",
+        "category": "KAWASAKI",
+        "price": 880
+    },
+    {
+        "_id": "4e",
+        "name": "Kawasaki 900",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/a-parked-sports-bike-11059011/",
+        "category": "KAWASAKI",
+        "price": 960
+    },
+    {
+        "_id": "4f",
+        "name": "Kawasaki H2R",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/front-of-a-green-and-black-sports-bike-11059018/",
+        "category": "KAWASAKI",
+        "price": 800
+    },
+    {
+        "_id": "4g",
+        "name": "Kawasaki H2",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/close-up-shot-of-a-kawasaki-ninja-motorcycle-10392245/",
+        "category": "KAWASAKI",
+        "price": 850
+    },
+    {
+        "_id": "4h",
+        "name": "Kawasaki H2",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/kawasaki-ninja-motorcycle-17706152/",
+        "category": "KAWASAKI",
+        "price": 900
+    },
+    {
+        "_id": "4i",
+        "name": "Kawasaki Ninja",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/kawasaki-ninja-motorcycle-26551157/",
+        "category": "KAWASAKI",
+        "price": 890
+    },
+    {
+        "_id": "4j",
+        "name": "Kawasaki H2R",
+        "type": "k sports",
+        "image": "https://www.pexels.com/photo/superbike-kawasaki-ninja-zx-6r-17243638/",
+        "category": "KAWASAKI",
+        "price": 900
+    }
+]
