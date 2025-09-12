@@ -7,12 +7,12 @@ const Navbar = () => {
     const [ isMenuOpen, setIsMenuOpen ] = useState(false);
     return (
         <>
-            <div className="flex justify-between items-center text-black py-4 px-8 md:px-32 bg-white drop-shadow-md"> 
+            <div className="flex fixed z-10 w-full justify-between items-center text-black py-4 px-8 md:px-32 bg-white drop-shadow-md"> 
                 <Link to="/">
                     <p className="btn font-semibold hover:scale-120 transition-all p-3 hover:bg-sky-400 hover:text-white rounded-md">Byke-House</p>                    
                 </Link>
 
-                <ul className="hidden xl:flex items-center gap-10 font-semibold text-base">
+                <ul className="hidden xl:flex items-center gap-4 font-semibold text-base">
                     <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
                         <Link to="/">Home</Link>
                     </li>
