@@ -1,5 +1,3 @@
-import React from 'react';
-
 const BykeItem = ({ item }) => {
 
     const { name, type, image, price } = item;

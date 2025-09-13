@@ -1,21 +1,9 @@
-import { useEffect, useState } from "react";
 import BykeItem from "../../../Shared/BykeItem/BykeItem";
 import useMenu from "../../../hooks/useMenu";
 
 const PopularByke = () => {
     const [menu] = useMenu();
     const popular = menu.filter(item => item.category === "popular");
-
-    // const [ menu, setMenu ] = useState([]);
-    
-    // useEffect(() => {
-    //     fetch("byke.json")
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         const popularItems = data.filter(item => item.category === "popular");
-    //         setMenu(popularItems)
-    //     })
-    // },[])
 
     return (
         <section className="max-w-screen-xl mx-auto pb-10">

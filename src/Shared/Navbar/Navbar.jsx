@@ -20,7 +20,7 @@ const Navbar = () => {
                         <Link to="/byke">Byke</Link>
                     </li>
                     <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
-                        <Link to="/order">Order</Link>
+                        <Link to="/order">Order Byke</Link>
                     </li>
                     <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
                         <Link to="/contact">Contact</Link>

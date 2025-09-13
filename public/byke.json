@@ -4,7 +4,7 @@
         "name": "CBR Tri-Color",
         "type": "h sports",
         "image": "https://www.bikebd.com/den/storage/app/files/shares/images/productimages/slider/new-honda-cbr150r-tricolor6523e4bd87eea.webp",
-        "category": "CBR",
+        "category": "offered",
         "price": 600
     },
     {
@@ -84,14 +84,14 @@
         "name": "Yamaha MT15",
         "type": "y sports",
         "image": "https://imgcdn.zigwheels.ph/large/gallery/exterior/86/1609/yamaha-yzf-r15-slant-front-view-full-image-380761.jpg?tr=w-510,h-340",
-        "category": "YAMAHA",
+        "category": "offered",
         "price": 600
     },
     {
         "_id": "2b",
         "name": "Yamaha R15 V2",
         "type": "y sports",
-        "image": "https://www.pexels.com/photo/bird-flying-over-motorcycle-15146893/",
+        "image": "https://images.pexels.com/photos/13031473/pexels-photo-13031473.jpeg",
         "category": "YAMAHA",
         "price": 650
     },
@@ -115,7 +115,7 @@
         "_id": "2e",
         "name": "Yamaha R1 V2",
         "type": "y sports",
-        "image": "https://images.pexels.com/photos/8532393/pexels-photo-8532393.png",
+        "image": "https://images.pexels.com/photos/19435687/pexels-photo-19435687.jpeg",
         "category": "YAMAHA",
         "price": 750
     },
@@ -171,8 +171,8 @@
         "_id": "3b",
         "name": "Suzuki Gixxer",
         "type": "s sports",
-        "image": "https://images.pexels.com/photos/13278519/pexels-photo-13278519.jpeg",
-        "category": "SUZUKI",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKZZCEdx6pXr8z65wXZQeqjaP4-EZxekHLGg&s",
+        "category": "offered",
         "price": 550
     },
     {
@@ -252,7 +252,7 @@
         "name": "Kawasaki Ninja",
         "type": "k sports",
         "image": "https://images.pexels.com/photos/26551157/pexels-photo-26551157.jpeg",
-        "category": "KAWASAKI",
+        "category": "offered",
         "price": 820
     },
     {
