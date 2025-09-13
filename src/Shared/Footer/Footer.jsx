@@ -11,7 +11,7 @@ const Footer = () => {
             </p>
           </Link>
           <p>
-            ACME Industries Ltd.
+            Byke Industries Ltd.
             <br />
             Providing reliable tech since 1992
           </p>

@@ -7,7 +7,7 @@ const Navbar = () => {
     const [ isMenuOpen, setIsMenuOpen ] = useState(false);
     return (
         <>
-            <div className="flex fixed z-10 w-full justify-between items-center text-black py-4 px-8 md:px-32 bg-white drop-shadow-md"> 
+            <div className="flex fixed z-10 w-full justify-between items-center text-black py-4 px-4 md:px-32 bg-white drop-shadow-md"> 
                 <Link to="/">
                     <p className="btn font-semibold hover:scale-120 transition-all p-3 hover:bg-sky-400 hover:text-white rounded-md">Byke-House</p>                    
                 </Link>

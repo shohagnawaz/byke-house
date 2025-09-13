@@ -1,0 +1,31 @@
+import { useEffect, useState } from "react";
+import BykeItem from "../../../Shared/BykeItem/BykeItem";
+
+const PopularByke = () => {
+    const [ menu, setMenu ] = useState([]);
+    
+    useEffect(() => {
+        fetch("byke.json")
+        .then(res => res.json())
+        .then(data => {
+            const popularItems = data.filter(item => item.category === "popular");
+            setMenu(popularItems)
+        })
+    },[])
+
+    return (
+        <section className="max-w-screen-xl mx-auto pb-10">
+            <h2 className="text-5xl text-center p-10">Popular Byke Item</h2>
+            <div className="grid md:grid-cols-2 gap-10">
+                {
+                    menu.map(item => <BykeItem
+                        key={item._id}
+                        item={item}
+                    ></BykeItem>)
+                }
+            </div>
+        </section>
+    );
+};
+
+export default PopularByke;
