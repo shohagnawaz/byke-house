@@ -36,9 +36,36 @@ const Order = () => {
                 }
             </div>
         </TabPanel>
-        <TabPanel></TabPanel>
-        <TabPanel></TabPanel>
-        <TabPanel></TabPanel>
+        <TabPanel>
+          <div className="grid md:grid-cols-3 gap-10">
+              {
+                yamaha.map(item => <BykeCard
+                key={item._id}
+                item={item}
+                ></BykeCard>)
+              }
+            </div>
+        </TabPanel>
+        <TabPanel>
+          <div className="grid md:grid-cols-3 gap-10">
+              {
+                suzuki.map(item => <BykeCard
+                key={item._id}
+                item={item}
+                ></BykeCard>)
+              }
+            </div>
+        </TabPanel>
+        <TabPanel>
+          <div className="grid md:grid-cols-3 gap-10">
+              {
+                kawasaki.map(item => <BykeCard
+                key={item._id}
+                item={item}
+                ></BykeCard>)
+              }
+            </div>
+        </TabPanel>
       </Tabs>
     </div>
   );

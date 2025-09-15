@@ -10,7 +10,7 @@ import bannerImg6 from "../../../assets/banner/banner6.jpg";
 
 const Banner = () => {
   return (
-      <Carousel>
+      <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false}>
         <div><img src={bannerImg} /></div>
         <div><img src={bannerImg2} /></div>
         <div><img src={bannerImg3} /></div>
