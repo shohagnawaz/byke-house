@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {
   const { register, handleSubmit, formState: {errors} } = useForm();
@@ -40,7 +41,7 @@ const Login = () => {
                     className="text-red-500">Password is required</p>
                 }
                 {
-                    errors.password?.type === "required" && <p
+                    errors.password?.type === "minLength" && <p
                     className="text-red-500">Password must be 6 characters or longer</p>
                 }
 
@@ -48,10 +49,11 @@ const Login = () => {
                   <a className="link link-hover">Forgot password?</a>
                 </div>
 
-                <button className="btn btn-neutral mt-4">Login</button>
+                <button className="btn btn-primary mt-4">Login</button>
               </fieldset>
             </form>
-            <p>New in here? <Link to="/signup">Please Sign Up</Link></p>
+            <p>New in here? <Link className="btn btn-link" to="/signup">Please Sign Up</Link></p>
+            <SocialLogin></SocialLogin>
           </div>
         </div>
       </div>
