@@ -2,9 +2,18 @@ import { Link } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+import useAuth from "../../hooks/useAuth";
 
 const Navbar = () => {
     const [ isMenuOpen, setIsMenuOpen ] = useState(false);
+    const { user, logOut } = useAuth();
+
+    const handleLogOut = () => {
+        logOut()
+            .then(result => console.log(result))
+            .catch(error => console.log(error))
+    }
+
     return (
         <>
             <div className="flex fixed z-10 w-full justify-between items-center text-black py-4 px-4 md:px-32 bg-white drop-shadow-md"> 
@@ -25,9 +34,12 @@ const Navbar = () => {
                     <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
                         <Link to="/contact">Contact</Link>
                     </li>
+                    { user ? 
+                    <button onClick={handleLogOut} className="btn btn-primary">Log Out</button>
+                        :
                     <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
                         <Link to="/login">Login</Link>
-                    </li>
+                    </li>}
                 </ul>
 
                 <div className="relative hidden md:flex items-center justify-center gap-3">
@@ -50,9 +62,12 @@ const Navbar = () => {
                     <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">
                         <Link to="/contact">Contact</Link>
                     </li>
+                    { user ?
+                    <button onClick={handleLogOut} className="btn btn-primary">Log Out</button>
+                        :
                     <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">
                         <Link to="/login">Login</Link>
-                    </li>
+                    </li>}
                 </div>
             </div>            
         </>
