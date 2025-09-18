@@ -34,6 +34,13 @@ const Navbar = () => {
                     <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
                         <Link to="/contact">Contact</Link>
                     </li>
+                    {
+                        user && <>
+                            <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
+                                <Link to="/dashboard">Dashboard</Link>
+                            </li>
+                        </>
+                    }
                     { user ? 
                     <button onClick={handleLogOut} className="btn btn-primary">Log Out</button>
                         :

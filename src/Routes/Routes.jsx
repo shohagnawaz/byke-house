@@ -5,6 +5,9 @@ import Byke from "../pages/Byke/Byke/Byke";
 import Order from "../pages/Order/Order";
 import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import Dashboard from "../components/Dashboard/Dashboard";
+import Cart from "../components/Dashboard/Cart";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +36,16 @@ const router = createBrowserRouter([
         }      
     ]
   },
+  {
+    path: "/dashboard",
+    element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
+    children: [
+        {
+            path: "cart",
+            element: <Cart></Cart>
+        }
+    ]
+  }
 ]);
 
 export default router;
