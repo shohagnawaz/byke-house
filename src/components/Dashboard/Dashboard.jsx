@@ -1,4 +1,5 @@
-import { Outlet } from "react-router-dom";
+import { FaHome, FaShoppingCart } from "react-icons/fa";
+import { Link, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -45,12 +46,12 @@ const Dashboard = () => {
         ></label>
         <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
           {/* Sidebar content here */}
-          <li>
-            <a>Sidebar Item 1</a>
-          </li>
-          <li>
-            <a>Sidebar Item 2</a>
-          </li>
+          <li><Link to="/">
+            <FaHome></FaHome>
+            Home</Link></li>
+          <li><Link to="/dashboard/cart">
+            <FaShoppingCart></FaShoppingCart>
+            My Cart</Link></li>
         </ul>
       </div>
     </div>

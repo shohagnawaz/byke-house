@@ -31,9 +31,6 @@ const Navbar = () => {
                     <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
                         <Link to="/order">Order Byke</Link>
                     </li>
-                    <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
-                        <Link to="/contact">Contact</Link>
-                    </li>
                     {
                         user && <>
                             <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
@@ -66,9 +63,13 @@ const Navbar = () => {
                     <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">
                         <Link to="/order">Order</Link>
                     </li>
-                    <li className="list-none w-full text-center p-4 hover:bg-sky-400 hover:text-white transition-all cursor-pointer">
-                        <Link to="/contact">Contact</Link>
-                    </li>
+                    {
+                        user && <>
+                            <li className="p-3 hover:bg-sky-400 hover:text-white rounded-md transition-all cursor-pointer">
+                                <Link to="/dashboard">Dashboard</Link>
+                            </li>
+                        </>
+                    }
                     { user ?
                     <button onClick={handleLogOut} className="btn btn-primary">Log Out</button>
                         :
